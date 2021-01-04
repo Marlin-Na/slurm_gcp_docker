@@ -14,8 +14,8 @@ sudo docker build --squash -t broadinstitute/slurm_gcp_docker_base:$VERSION \
 # This can then be pushed to a container repo, e.g. gcr.io:
 #
 # docker tag broadinstitute/slurm_gcp_docker_base:$VERSION \
-#   gcr.io/broad-getzlab-workflows/slurm_gcp_docker_base:$VERSION
+#   gcr.io/broad-getzlab-wolf-wgs-hg19/slurm_gcp_docker_base_jma:$VERSION
 # docker tag broadinstitute/slurm_gcp_docker_base:$VERSION \
-#   gcr.io/broad-getzlab-workflows/slurm_gcp_docker_base:latest
-# docker push gcr.io/broad-getzlab-workflows/slurm_gcp_docker_base:$VERSION
-# docker push gcr.io/broad-getzlab-workflows/slurm_gcp_docker_base:latest
+#   gcr.io/broad-getzlab-wolf-wgs-hg19/slurm_gcp_docker_base_jma:latest
+# docker push gcr.io/broad-getzlab-wolf-wgs-hg19/slurm_gcp_docker_base_jma:$VERSION
+# docker push gcr.io/broad-getzlab-wolf-wgs-hg19/slurm_gcp_docker_base_jma:latest
