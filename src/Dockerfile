@@ -1,4 +1,4 @@
-FROM gcr.io/broad-getzlab-workflows/slurm_gcp_docker_base
+FROM gcr.io/broad-getzlab-wolf-wgs-hg19/slurm_gcp_docker_base_jma
 
 # add current user to container; enable passwordless sudo and rootless docker
 ARG UID
